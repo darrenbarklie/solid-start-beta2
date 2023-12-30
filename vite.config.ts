@@ -7,7 +7,7 @@ export default defineConfig({
   start: {
     extensions: ["mdx", "md"],
     server: {
-      preset: "netlify_edge",
+      preset: "netlify",
       // preset: "vercel",
     },
   },
